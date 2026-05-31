@@ -1020,7 +1020,7 @@
         <div class="container">
             <div class="founder-wrapper">
                 <div class="founder-img">
-                    <img src="https://images.contactout.com/profiles/1fd33778400c256b3e095f27509f8231" alt="Michele Meoni, MBA - Founder & CEO">
+                    <img id="act-img" src="image-1.png" alt="Michele Meoni, MBA - Founder & CEO">
                 </div>
                 <div class="founder-info">
                     <h2>Michele Meoni, MBA</h2>
@@ -1034,9 +1034,9 @@
 
                     <div class="cv-tabs">
                         <div class="tab-buttons">
-                            <button class="tab-btn active" onclick="openTab(event, 'experience')">Key Milestones</button>
-                            <button class="tab-btn" onclick="openTab(event, 'education')">Education</button>
-                            <button class="tab-btn" onclick="openTab(event, 'credentials')">Associations</button>
+                            <button class="tab-btn active" onclick="openTab(event, 'experience');document.getElementById('act-img').src='image-1.png'">Key Milestones</button>
+                            <button class="tab-btn" onclick="openTab(event, 'education');document.getElementById('act-img').src='image-2.png'">Education</button>
+                            <button class="tab-btn" onclick="openTab(event, 'credentials');document.getElementById('act-img').src='image-3.png'">Associations</button>
                         </div>
 
                         <div id="experience" class="tab-content active">
